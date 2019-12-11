@@ -16,6 +16,7 @@ decorator==4.4.1
 defusedxml==0.6.0
 dominate==2.4.0
 entrypoints==0.3
+Flask==1.0.2
 gunicorn==19.9.0
 httplib2==0.14.0
 idna==2.8
