@@ -1,0 +1,13 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<! –– pulled from bokeh inspect browser dynamic cdn update ––> 
+<script type="text/javascript" src={{cdn_js | safe}}></script>
+
+<div class="plot">
+  <h1>Morningstar</h1>
+  <p>Things to know</p>
+</div>
+{{script1 | safe}}
+{{div1 | safe}}
+{%endblock%}
